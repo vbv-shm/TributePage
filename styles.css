@@ -1,10 +1,10 @@
 html {
-    height: 100%;
+    /* height: 100%;
     padding: 0px;
-    margin: 0px;
+    margin: 0px; */
   }
 body {
-    height: 100vh;
+    height: 100%;
     padding: 0% ;
     margin: 0%;
     overflow:0px;
@@ -45,21 +45,46 @@ divMain>p{
 }
 
 imageContainer{
-    width: 70%;
-    height: 20%;
+    width: 30%;
     display:block;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
 }
 
 .image{
+    border-radius: 10px;
+    padding:5px;
     display:block;
     position: static;
     margin-left: auto;
     margin-right: auto;
     
-    width: 60%;
-    max-width: 400px;
+    width: 95%;
+    max-width: 350px;
     height:auto;
 
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+}
+li>p{
+    display:inline;
+    margin-bottom: 20px;
+}
+ul>b{
+    display:inline;
+}
+ul{
+    width:50%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{margin: 10px;}
+li:last-child{
+    padding-bottom: 50px;
 }
