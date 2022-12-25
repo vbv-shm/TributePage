@@ -1,8 +1,21 @@
+html {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    /* overflow:hidden; */
+  }
+
 @font-face {
     font-family: cfont;
     src: url(NotoSansMath-Regular.ttf);
 
 }
+
 :root {
     --main-background: rgba(200, 199, 199, 0.684);
     --main-font-color:rgb(51, 51, 51);
@@ -26,7 +39,11 @@ divMain>p{
     text-align: center;
     font-size: 1.5rem;
 }
-body{
-    
 
+imageContainer{
+    
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    margin: 5px 10px;
 }
