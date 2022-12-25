@@ -1,0 +1,32 @@
+@font-face {
+    font-family: cfont;
+    src: url(NotoSansMath-Regular.ttf);
+
+}
+:root {
+    --main-background: rgba(200, 199, 199, 0.684);
+    --main-font-color:rgb(51, 51, 51);
+  }
+h1{
+    font-family: cfont;
+    /* background-color: blue; */
+    padding-top: 10%;
+    text-align: center;
+    font-size: 3rem;
+}
+divMain{
+    display: block;
+    background-color: var(--main-background);
+    height:100%;
+    width:100%;
+    border-radius: 15px;
+    color: var(--main-font-color);
+}
+divMain>p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+body{
+    
+
+}
