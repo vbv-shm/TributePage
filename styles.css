@@ -5,8 +5,9 @@ html {
   }
 body {
     height: 100vh;
-    padding: 0;
-    margin: 0;
+    padding: 0% ;
+    margin: 0%;
+    overflow:0px;
     /* overflow:hidden; */
   }
 
@@ -23,17 +24,20 @@ body {
 h1{
     font-family: cfont;
     /* background-color: blue; */
-    padding-top: 10%;
+    padding-top: 5%;
     text-align: center;
     font-size: 3rem;
 }
 divMain{
     display: block;
     background-color: var(--main-background);
-    height:100%;
-    width:100%;
+    height:94%;
+    width:86%;
     border-radius: 15px;
     color: var(--main-font-color);
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 8%;
 }
 divMain>p{
     text-align: center;
@@ -41,9 +45,21 @@ divMain>p{
 }
 
 imageContainer{
+    width: 70%;
+    height: 20%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image{
+    display:block;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
     
-    width:100px;
-    height:100px;
-    background-color: aqua;
-    margin: 5px 10px;
+    width: 60%;
+    max-width: 400px;
+    height:auto;
+
 }
