@@ -1,8 +1,4 @@
-html {
-    /* height: 100%;
-    padding: 0px;
-    margin: 0px; */
-  }
+
 body {
     height: 100%;
     padding: 0% ;
@@ -87,4 +83,22 @@ ul{
 li{margin: 10px;}
 li:last-child{
     padding-bottom: 50px;
+}
+
+.quote{
+    margin-left:20%;
+    margin-right:20%;
+    padding-bottom: 5%;
+    display: block;
+}
+.name{
+    display: inline;
+    font-weight:bold;
+}
+.wikilink{
+    font-weight: bold;
+    text-align: center;
+}
+a{
+
 }
